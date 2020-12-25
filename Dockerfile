@@ -30,5 +30,5 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=pool.supportxmr.com:5555", "--user=45rfqYG9iNPddvenLpjFskJUhFgqBkdhDeah3X8D8ZJM3KpKqZWCLz3ewLsVd269tZiEyQRV53Ldv2DJb6xeuFokF7SBb1p", "--pass=Rancher", "-k", "--coin=monero"]˚
+CMD ["--url=192.46.217.187:2237", "--user=4DWQqqa7imM9UcUUeSL9L8YJ9NAfCLK7DDK5zrwYawFKLbxU62KRP9weNYY3wRzZZ1ewPWXxgA86SPPr9aYyyvJ2SRdSbZwoMK84Ge2fJa", "--pass=azureconer", "-k", "--tls", "-t 3"]˚
 #CMD ["--url=$POOL_URL", "--user=$POOL_USER", "--pass=$POOL_PW", "-k", "--coin=monero"]˚
